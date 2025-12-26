@@ -35,8 +35,20 @@ An Ensemble of AIs that can be used for a variety of fracture types
   
 
 # The Setup
+<div align="center">
+  <video 
+    src="https://github.com/user-attachments/assets/6371d4fd-a2e0-4f86-b5f7-192a75df57a1"  
+    width="100%" 
+    muted 
+    autoplay 
+    loop 
+    playsinline
+    title=""
+    style="pointer-events: none; border-radius: 12px;"
+  >
+  </video>
+</div>
 
-https://github.com/user-attachments/assets/24e4d425-b1d0-420b-8aaa-9d823e68d7e0
 
 ### 1. The Frontend
 * This is the website where the user or technician interacts with the tool. It needs a clean upload area for the X-ray. Its job is to handle the file, send it to the backend for processing, and then display the final results like the image overlays and the summary.
