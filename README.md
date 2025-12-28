@@ -3,23 +3,18 @@
 # Full-Body-Fracture-Detector
 An Ensemble of AIs that can be used for a variety of fracture types
 1. Avulsion fracture
-2. Closed (simple) fracture
-3. Comminuted fracture
-4. Compression (crush) fracture
-5. Fracture dislocation
-6. Greenstick fracture
-7. Hairline fracture
-8. Impacted fracture
-9. Intra-articular fracture
-10. Longitudinal fracture
-11. Oblique fracture
-12. Open (compound) fracture
-13. Pathological fracture
-14. Segmental fracture
-15. Spiral fracture
-16. Stress fracture
-17. Transverse fracture
-18. No Fracture 
+2. Comminuted fracture
+3. Compression (crush) fracture
+4. Fracture dislocation
+5. Greenstick fracture
+6. Impacted fracture
+7. Intra-articular fracture
+8. Longitudinal fracture
+9. Oblique fracture
+10. Segmental fracture
+11. Spiral fracture
+12. Transverse fracture
+13. No Fracture 
 ### Link to datasets
 * https://data.mendeley.com/datasets/2j8vvz3j6v/1
 
@@ -61,8 +56,8 @@ An Ensemble of AIs that can be used for a variety of fracture types
 ### 3. The Classifier
 * An AI model gets fed copies of the same image, but for every fracture found, the system generates a unique copy of the original image. For example, on "Image 1," the system draws only the first bounding box. On "Image 2," it draws only the second, and so on. These images get classified by the AI on what type of fracture is present.
 
-### 4. The Reporter (MedGemma)
-* After the detection is done, you have raw data (like coordinates and labels). This data is fed into MedGemma, a language model trained on medical text. It takes those technical results (Along with a potential clinical note) and writes a clear, professional summary that explains the findings in plain English.
+### 4. The Reporter (MedGemma/LLM)
+* After the detection is done, you have raw data (like coordinates and labels). This data is fed into MedGemma, a language model (Or any other multimodal llm) trained on medical text. It takes those technical results (Along with a potential clinical note) and writes a clear, professional summary that explains the findings in plain English.
 
 ### 5. The Output (Result Display)
 * The final step sends everything back to the website. The user sees the original X-ray with a red box highlighting the break, the type of fracture, and the written report sitting right next to it.
