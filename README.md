@@ -56,8 +56,8 @@ An Ensemble of AIs that can be used for a variety of fracture types
 ### 3. The Classifier
 * An AI model gets fed copies of the same image, but for every fracture found, the system generates a unique copy of the original image. For example, on "Image 1," the system draws only the first bounding box. On "Image 2," it draws only the second, and so on. These images get classified by the AI on what type of fracture is present.
 
-### 4. The Reporter (MedGemma/LLM)
-* After the detection is done, you have raw data (like coordinates and labels). This data is fed into MedGemma, a language model (Or any other multimodal llm) trained on medical text. It takes those technical results (Along with a potential clinical note) and writes a clear, professional summary that explains the findings in plain English.
+### 4. The Reporter (LLM)
+* After the detection is done, you have raw data (like coordinates and labels). This data is fed into a language model (Like llama). It takes those technical results (Along with a potential clinical note) and writes a clear, professional summary that explains the findings in plain English.
 
 ### 5. The Output (Result Display)
 * The final step sends everything back to the website. The user sees the original X-ray with a red box highlighting the break, the type of fracture, and the written report sitting right next to it.
@@ -65,6 +65,22 @@ An Ensemble of AIs that can be used for a variety of fracture types
 # Website Link
 ![WIP](https://img.shields.io/badge/status-work--in--progress-orange)
 
+### A little preview
+https://github.com/user-attachments/assets/889ffcdc-222d-4ada-b341-ac72b339823b
+
+# Next up -> Brain Tumor Classification and Segmentatation
+### Types of tumors it will classify
+* Glioblastoma
+* Glioma
+* Meningioma
+* Pituitary
+* Schwannoma
+* Metastatic
+* No tumor
+
+### Structure
+* A classifer detects whether a tumor is present in the first place as well as the type
+* If a tumor is present, it gets sent to a segmentation model (UNet) to generate a mask
 
 # Contributors
 ### Thank you to
