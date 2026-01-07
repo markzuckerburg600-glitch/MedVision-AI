@@ -1,6 +1,13 @@
 ![WIP](https://img.shields.io/badge/status-work--in--progress-orange)
+# A bunch of AI disease detectors for a variety of conditions
+* Full Body Fracture 
+* Brain Tumor
+* Skin Disease
+* Pneumonia
+* Lung Nodules
+* Leukemia
   
-# Full-Body-Fracture-Detector
+## Full-Body-Fracture-Detector
 An Ensemble of AIs that can be used for a variety of fracture types
 1. Avulsion fracture
 2. Comminuted fracture
@@ -68,7 +75,7 @@ An Ensemble of AIs that can be used for a variety of fracture types
 ### A little preview
 https://github.com/user-attachments/assets/889ffcdc-222d-4ada-b341-ac72b339823b
 
-# Next up -> Brain Tumor Classification and Segmentatation
+## Brain Tumor Classification and Segmentatation
 ### Types of tumors it will classify
 * Glioblastoma
 * Glioma
@@ -81,6 +88,8 @@ https://github.com/user-attachments/assets/889ffcdc-222d-4ada-b341-ac72b339823b
 ### Structure
 * A classifer detects whether a tumor is present in the first place as well as the type
 * If a tumor is present, it gets sent to a segmentation model (UNet) to generate a mask
+* LLM summarizes findings
+
 
 # Contributors
 ### Thank you to
