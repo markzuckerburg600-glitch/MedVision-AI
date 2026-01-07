@@ -20,7 +20,10 @@
 ## The Solution 
 ### Implement AI
 * Computers don't get tired. A YOLO model will look at the 1,000th image with the same focus as the 1st one. It spots the subtle patterns that a human eye might gloss over due to exhaustion or human error.
-  
+
+# Website Link
+![WIP](https://img.shields.io/badge/status-work--in--progress-orange)
+
 # Models
 
 ## Full-Body-Fracture-Detector
@@ -72,10 +75,7 @@ An Ensemble of AIs that can be used for a variety of fracture types
 ### 5. The Output (Result Display)
 * The final step sends everything back to the website. The user sees the original X-ray with a red box highlighting the break, the type of fracture, and the written report sitting right next to it.
 
-# Website Link
-![WIP](https://img.shields.io/badge/status-work--in--progress-orange)
-
-### A little preview
+### Preview
 https://github.com/user-attachments/assets/889ffcdc-222d-4ada-b341-ac72b339823b
 
 ## Brain Tumor Classification and Segmentatation
