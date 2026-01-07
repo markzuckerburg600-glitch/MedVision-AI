@@ -6,7 +6,23 @@
 * Pneumonia
 * Lung Nodules
 * Leukemia
+
+# Why was this built?
+
+## The Problem
+* Radiologists are constantly under stress
+* Misdiagnoses leads to wasted time going to other visits (Not to mention the costs)
+* Not every place has world-class radiologists on site
+<p align="center">
+ <img src = "https://outcomesrocket.health/wp-content/uploads/2020/04/Reducing-Misdiagnosis-in-Radiology-and-Beyond-1.png" width = "100%" height = "auto">
+</p>
+
+## The Solution 
+### Implement AI
+* Computers don't get tired. A YOLO model will look at the 1,000th image with the same focus as the 1st one. It spots the subtle patterns that a human eye might gloss over due to exhaustion or human error.
   
+# Models
+
 ## Full-Body-Fracture-Detector
 An Ensemble of AIs that can be used for a variety of fracture types
 1. Avulsion fracture
@@ -24,19 +40,6 @@ An Ensemble of AIs that can be used for a variety of fracture types
 13. No Fracture 
 ### Dataset
 * https://huggingface.co/datasets/RyanChen1209/BIG-X-RAY-DATASET
-
-# The Problem
-* Radiologists are constantly under stress
-* Misdiagnoses leads to wasted time going to other visits (Not to mention the costs)
-* Not every place has world-class radiologists on site
-<p align="center">
- <img src = "https://outcomesrocket.health/wp-content/uploads/2020/04/Reducing-Misdiagnosis-in-Radiology-and-Beyond-1.png" width = "100%" height = "auto">
-</p>
-
-# The Solution 
-### Implement AI
-* Computers don't get tired. A YOLO model will look at the 1,000th image with the same focus as the 1st one. It spots the subtle patterns that a human eye might gloss over due to exhaustion.
-  
 
 # The Setup
 <div align="center">
