@@ -22,8 +22,8 @@ An Ensemble of AIs that can be used for a variety of fracture types
 11. Spiral fracture
 12. Transverse fracture
 13. No Fracture 
-### Link to datasets
-* https://data.mendeley.com/datasets/2j8vvz3j6v/1
+### Dataset
+* https://huggingface.co/datasets/RyanChen1209/BIG-X-RAY-DATASET
 
 # The Problem
 * Radiologists are constantly under stress
@@ -84,6 +84,9 @@ https://github.com/user-attachments/assets/889ffcdc-222d-4ada-b341-ac72b339823b
 * Schwannoma
 * Metastatic
 * No tumor
+
+### Dataset
+* https://huggingface.co/datasets/RyanChen1209/Brain-Tumor-Classification-MRI
 
 ### Structure
 * A classifer detects whether a tumor is present in the first place as well as the type
